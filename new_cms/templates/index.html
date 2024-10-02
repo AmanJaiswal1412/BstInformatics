@@ -1,0 +1,458 @@
+{% extends 'base.html' %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+{% block content%}
+  <!-- Slider Section Start -->
+  <div class="slider-area h-100 h-sm-auto bg-1">
+    <div class="container h-100 h-sm-auto d-flex flex-row align-items-center flex-wrap flex-md-nowrap">
+      <div class="caption" data-aos="fade-right">
+        <h2 class="display-3 mb-5">Welcome to</h2>
+        <h1 class="display-1">Digital <span class="text-primary">Marketing.</span></h1>
+        <p class="mb-30">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+        <a href="#" class="btn btn-primary">Explore Now</a>
+      </div>
+      <div class="image-layer ml-md-auto align-self-md-center align-self-start" data-aos="fade-left">
+        <img src="{% static 'assets/img/slider/layer/1.png' %}" alt="Layer Image">
+      </div>
+    </div>
+  </div>
+  <!-- Slider Section End -->
+  <!-- Promo Box Start -->
+  <div class="promo-area solid-gredient-1 position-relative">
+    <div class="container" data-aos="zoom-out">
+        <div class="promo-box bg-primary bg-2 d-flex flex-row align-items-center">
+          <div class="mx-auto text-center">
+            <h1 class="text-white mb-40">Check your Website’s SEO</h1>
+            <form class="form-inline" action="#">
+              <input class="form-control" type="text" placeholder="Type website URL">
+              <input class="form-control" type="email" placeholder="Your Email">
+              <button class="btn btn-dark" type="submit">Check Up!</button>
+            </form>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- Promo Box End -->
+  <!-- Icon Blocks Start -->
+  <div class="icon-blocks bg-light section-ptb position-relative cloud-shape">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4 mb-sm-40" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                <img src="{% static 'assets/img/icons/1.png' %}" alt="Icon">
+              </div>
+              <h3>Digital Marketing</h3>
+              <p>When an unknown printer took Galley of type and scrambled it to make a type specimen book.</p>
+              <a class="item-link" href="service-details.html">Read More <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-sm-40" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                <img src="{% static 'assets/img/icons/2.png' %}" alt="Icon">
+              </div>
+              <h3>SEO Optimization</h3>
+              <p>As opposed to using 'Content here, content here', making it look likreadable English. Many desktop publish</p>
+              <a class="item-link" href="service-details.html">Read More <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-sm-40" data-aos="zoom-in" data-aos-delay="600">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                <img src="{% static 'assets/img/icons/3.png' %}" alt="Icon">
+              </div>
+              <h3>Data Processing</h3>
+              <p>But the majority have suffered alt ration in some form, by injectendomised words which don't look even</p>
+              <a class="item-link" href="service-details.html">Read More <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- Icon Blocks End -->
+  <!-- Hero Block Start -->
+  <div class="hero-block bg-white section-ptb">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-12 col-md-6 mb-sm-30" data-aos="fade-right">
+          <div class="hero-text m-minus">
+            <h1 class="mb-25">Why We’re The Best <br class="d-none d-lg-block"> Match For Your Business!!</h1>
+            <p class="mb-40">If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator.</p>
+            <a href="about.html" class="btn btn-primary">About Us</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6" data-aos="fade-left">
+          <div class="hero-thumb text-left text-lg-right">
+            <img src="{% static 'assets/img/hero/1.png' %}" alt="Hero Thumbnail">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Block End -->
+  <!-- Icon Blocks Start -->
+  <div class="icon-blocks bg-light section-ptb">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col" data-aos="zoom-in">
+          <div class="heading mb-55">
+            <h1>Best Digital <br> <span class="text-primary">Marketing Services</span></h1>
+            <p>If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything <br class="d-none d-lg-block"> embarrassing hidden in the middle of text. All the Lorem Ipsum </p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 mb-sm-40" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card ptb-60 bg-blue">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                <img src="{% static 'assets/img/icons/1.png' %}" alt="Icon">
+              </div>
+              <h3 class="text-white">Digital Marketing</h3>
+              <p class="text-white mb-35">When an unknown printer took Galley of type and scrambled it to make a type specimen book.</p>
+              <button class="btn  btn-outline-light btn-sm">Read More</button>
+            </div>
+          </div>
+        </div>
+        <!-- Single Service End -->
+        <div class="col-md-4 mb-sm-40" data-aos="zoom-in" data-aos-delay="400">
+          <div class="card ptb-60 bg-dark bg-3">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                <img src="{% static 'assets/img/icons/2.png' %}" alt="Icon">
+              </div>
+              <h3 class="text-white">SEO Optimization</h3>
+              <p class="text-white mb-35">A opposed to using 'Content here, content here', making it loreadable English. Many desktop.</p>
+              <button class="btn  btn-outline-light btn-sm">Read More</button>
+            </div>
+          </div>
+        </div>
+        <!-- Single Service End -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+          <div class="card ptb-60 bg-secondary">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                <img src="{% static 'assets/img/icons/3.png' %}" alt="Icon">
+              </div>
+              <h3 class="text-white">Data Processing</h3>
+              <p class="text-white mb-35">Many variations of passages oLorem Ipsum available, but the major have suffered alteration in.</p>
+              <button class="btn  btn-outline-light btn-sm">Read More</button>
+            </div>
+          </div>
+        </div>
+        <!-- Single Service End -->
+      </div>
+      <div class="row mt-80">
+        <div class="col text-center">
+          <a href="services.html" class="btn btn-primary">All Services</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Icon Blocks End -->
+  <!-- Work Process Start -->
+  <div class="work-process bg-white section-ptb">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col" data-aos="zoom-in">
+            <div class="heading mb-75">
+              <h1>How It's <span class="text-primary">Work</span></h1>
+              <p>If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything <br class="d-none d-lg-block"> embarrassing hidden in the middle of text. All the Lorem Ipsum </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="process-boxs d-flex d-row flex-wrap flex-xl-nowrap">
+              <div class="circle-box align-self-center" data-aos="zoom-in" data-aos-delay="100">
+                <img src="{% static 'assets/img/process/1.png' %}" alt="Icon Image">
+                <h3 class="mb-0 mt-25 pl-20 text-warning">01. Research</h3>
+              </div>
+              <div class="circle-box align-self-start" data-aos="zoom-in" data-aos-delay="300">
+                <img src="{% static 'assets/img/process/2.png' %}" alt="Icon Image">
+                <h3 class="mb-0 mt-5 text-secondary">02. Data Collection</h3>
+              </div>
+              <div class="circle-box align-self-end" data-aos="zoom-in" data-aos-delay="500">
+                <img src="{% static 'assets/img/process/3.png' %}" alt="Icon Image">
+                <h3 class="mb-0 mt-25 pl-20 text-primary">03. Targeting</h3>
+              </div>
+              <div class="circle-box align-self-start" data-aos="zoom-in" data-aos-delay="700">
+                <img src="{% static 'assets/img/process/4.png' %}" alt="Icon Image">
+                <h3 class="mb-0 mt-25 text-center">04. Result</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- Work Process End -->
+  <!-- Case Study Start -->
+  <div class="case-study bg-dark section-ptb position-relative cloud-shape">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col" data-aos="zoom-in">
+            <div class="heading mb-55">
+              <h1 class="text-white">Our Case <span class="text-primary">Study</span></h1>
+              <p class="text-white">If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything <br class="d-none d-lg-block"> embarrassing hidden in the middle of text. All the Lorem Ipsum </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12" data-aos="zoom-out" data-aos-delay="200">
+            <div id="four-item">
+              <div class="item">
+                  <div class="single-case bg-white">
+                    <div class="case-thumb">
+                      <a href="case-study-details.html"><img src="{% static 'assets/img/case/1.jpg' %}" alt="Thumbnail"></a>
+                    </div>
+                    <div class="case-title ptb-20 pl-20">
+                      <span class="badge badge-dark mb-10">Agency</span>
+                      <h4 class="mb-0"><a href="case-study-details.html">Digital Marketing</a></h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="single-case bg-white">
+                    <div class="case-thumb">
+                      <a href="case-study-details.html"><img src="{% static 'assets/img/case/2.jpg' %}" alt="Thumbnail"></a>
+                    </div>
+                    <div class="case-title ptb-20 pl-20">
+                      <span class="badge badge-dark mb-10">Consutling</span>
+                      <h4 class="mb-0"><a href="case-study-details.html">Consulting Persone</a></h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="single-case bg-white">
+                    <div class="case-thumb">
+                      <a href="case-study-details.html"><img src="{% static 'assets/img/case/3.jpg' %}" alt="Thumbnail"></a>
+                    </div>
+                    <div class="case-title ptb-20 pl-20">
+                      <span class="badge badge-dark mb-10">Network</span>
+                      <h4 class="mb-0"><a href="case-study-details.html">Social Networks</a></h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="single-case bg-white">
+                    <div class="case-thumb">
+                      <a href="case-study-details.html"><img src="{% static 'assets/img/case/4.jpg' %}" alt="Thumbnail"></a>
+                    </div>
+                    <div class="case-title ptb-20 pl-20">
+                      <span class="badge badge-dark mb-10">Design</span>
+                      <h4 class="mb-0"><a href="case-study-details.html">Hezul Portfolio PSD</a></h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="single-case bg-white">
+                    <div class="case-thumb">
+                      <a href="case-study-details.html"><img src="{% static 'assets/img/case/3.jpg' %}" alt="Thumbnail"></a>
+                    </div>
+                    <div class="case-title ptb-20 pl-20">
+                      <span class="badge badge-dark mb-10">Network</span>
+                      <h4 class="mb-0"><a href="case-study-details.html">Social Networks</a></h4>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="slick-progress mt-80 mb-sm-30 mx-auto" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+               <span class="slider-label"> </span>
+           </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- Case Study End -->
+  <!-- Hero Block Start -->
+  <div class="hero-block bg-white section-ptb">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-12 col-md-6 mb-sm-30" data-aos="fade-right">
+          <div class="hero-text">
+            <h1 class="mb-25">SEO Audit, Performance <br> And SEO Score Report</h1>
+            <p class="mb-40">If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator.</p>
+            <a href="about.html" class="btn btn-primary">Analyze Website</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6" data-aos="fade-left">
+          <div class="hero-thumb text-left text-md-right">
+            <img src="{% static 'assets/img/hero/2.png' %}" alt="Hero Thumbnail">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Block End -->
+  <!-- Client Testimonial Start -->
+  <div class="client-testimonial bg-dark bg-4 section-ptb">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col" data-aos="fade-up">
+            <div class="heading mb-65">
+              <h1 class="text-white">Happy Clients</h1>
+              <p class="text-white">If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything <br class="d-none d-lg-block"> embarrassing hidden in the middle of text. All the Lorem Ipsum </p>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters plr-20">
+          <div class="col" data-aos="zoom-in" data-aos-delay="200">
+            <div class="testimonial-box bg-white">
+              <i class="fa fa-quote-left"></i>
+              <p>Randomised words whdon't look even slightly believable. If you are going to use ssage of Lorem Ipsum, you</p>
+              <div class="thumb mt-10 mb-20">
+                <img src="{% static 'assets/img/client/thumb/1.png' %}" alt="Client Thumb">
+              </div>
+              <h4 class="mb-3">Steven Nelson</h4>
+              <h5 class="mb-0">Designer</h5>
+            </div>
+          </div>
+          <!-- Client Box End -->
+          <div class="col center-col" data-aos="zoom-in" data-aos-delay="400">
+            <div class="testimonial-box bg-white">
+              <i class="fa fa-quote-left"></i>
+              <p>It has survived not only nries, but also the leap tronic tting, remaining essenttenher ctent here making it look like </p>
+              <div class="thumb mt-10 mb-20">
+                <img src="{% static 'assets/img/client/thumb/2.png' %}" alt="Client Thumb">
+              </div>
+              <h4 class="mb-3">Alan Moore</h4>
+              <h5 class="mb-0">Develover</h5>
+            </div>
+          </div>
+          <!-- Client Box End -->
+          <div class="col" data-aos="zoom-in" data-aos-delay="600">
+            <div class="testimonial-box bg-white">
+              <i class="fa fa-quote-left"></i>
+              <p>As opposed to using 'Content here, content here', making it look like readable EngliMany desktop publishing</p>
+              <div class="thumb mt-10 mb-20">
+                <img src="{% static 'assets/img/client/thumb/1.png' %}" alt="Client Thumb">
+              </div>
+              <h4 class="mb-3">Harry Phillips</h4>
+              <h5 class="mb-0">UI/UX Designer</h5>
+            </div>
+          </div>
+          <!-- Client Box End -->
+        </div>
+      </div>
+  </div>
+  <!-- Client Testimonial End -->
+  <!-- Latest Blog Start -->
+  <div class="blog-area bg-white section-ptb" data-aos="zoom-out-up">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col" data-aos="zoom-in">
+            <div class="heading mb-75">
+              <h1>Latest <span class="text-primary">Blog</span></h1>
+              <p>If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything <br class="d-none d-lg-block"> embarrassing hidden in the middle of text. All the Lorem Ipsum </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 mb-sm-30" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card">
+              <div class="card-header">
+                <a href="blog-details.html"><img src="{% static 'assets/img/blog/1.jpg' %}" alt="Post Thumbnail"></a>
+              </div>
+              <div class="card-body">
+                <span class="badge badge-lg badge-primary">16 march 2018</span>
+                <h3 class="mb-10 mt-10"><a href="blog-details.html">Are going to use a passage</a></h3>
+                <p class="mb-20">Phen an unknown printer took alley type and scrambled it to make a type pecimen book. new fish loend</p>
+              </div>
+              <div class="card-footer media bg-white">
+                <div class="thumb">
+                  <img src="{% static 'assets/img/client/thumb/1.png' %}" alt="Author Image">
+                </div>
+                <div class="post-by align-self-center pl-15">
+                  <h5 class="mb-0"><span class="text-primary">Posted by </span>Raju Ahmad</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Blog Post End -->
+          <div class="col-12 col-md-4 mb-sm-30" data-aos="zoom-in" data-aos-delay="400">
+            <div class="card">
+              <div class="card-header">
+                <a href="blog-details.html"><img src="{% static 'assets/img/blog/2.jpg' %}" alt="Post Thumbnail"></a>
+              </div>
+              <div class="card-body">
+                <span class="badge badge-lg badge-primary">14 march 2018</span>
+                <h3 class="mb-10 mt-10"><a href="blog-details.html">Hidden in the Next</a></h3>
+                <p class="mb-20">Lorem Ipsum comes from sections a "de Finibus Bonorum et Malorum TExtremes of Good and Evil) by Cicero,</p>
+              </div>
+              <div class="card-footer media bg-white">
+                <div class="thumb">
+                  <img src="{% static 'assets/img/client/thumb/2.png' %}" alt="Author Image">
+                </div>
+                <div class="post-by align-self-center pl-15">
+                  <h5 class="mb-0"><span class="text-primary">Posted by </span>Harry Phillips</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Blog Post End -->
+          <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="600">
+            <div class="card">
+              <div class="card-header">
+                <a href="blog-details.html"><img src="{% static 'assets/img/blog/3.jpg' %}" alt="Post Thumbnail"></a>
+              </div>
+              <div class="card-body">
+                <span class="badge badge-lg badge-primary">12 march 2018</span>
+                <h3 class="mb-10 mt-10"><a href="blog-details.html">Combined with a handful</a></h3>
+                <p class="mb-20">Standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections.</p>
+              </div>
+              <div class="card-footer media bg-white">
+                <div class="thumb">
+                  <img src="{% static 'assets/img/client/thumb/3.png' %}" alt="Author Image">
+                </div>
+                <div class="post-by align-self-center pl-15">
+                  <h5 class="mb-0"><span class="text-primary">Posted by </span>Linda Ray</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Blog Post End -->
+        </div>
+      </div>
+  </div>
+  <!-- Latest Blog End -->
+  <!-- Clients Logo Section Start -->
+  <div class="client-logo section-pb bg-white">
+    <div class="container text-center" data-aos="zoom-out-down">
+      <div class="row justify-content-around">
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/1.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/2.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/3.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/4.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/5.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+      </div>
+    </div>
+  </div>
+  <!-- Clients Logo Section End -->
+
+{% endblock %}

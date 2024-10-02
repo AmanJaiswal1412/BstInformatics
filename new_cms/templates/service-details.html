@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+{% block content%}
+  <!-- Header End -->
+  <div class="header-space"></div>
+  <!-- Breadcrumb Area Start -->
+  <nav class="breadcrumb-area bg-dark bg-6">
+    <div class="container">
+      <h1 class="text-white mb-10">Service Details</h1>
+      <ol class="breadcrumb p-0 m-0 bg-dark">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/what-we-offer/"><i class="fa fa-minus"></i>Best Services</a></li>
+        <li aria-current="page" class="breadcrumb-item active"><i class="fa fa-minus"></i> {% page_attribute "page_title" %}</li>
+      </ol>
+    </div>
+  </nav>
+  <!-- Breadcrumb Area End -->
+  <!-- Hero Block Start -->
+  <div class="hero-block center-mode bg-white section-pt">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12 col-lg-10 mx-auto">
+          <div class="hero-text mb-70 mb-sm-40" data-aos="fade-up">
+            {% placeholder "content_space_1" %}
+          </div>
+          <div class="hero-thumb" data-aos="fade-up">
+            {% placeholder "image_space_1" %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Block End -->
+  <!-- Hero Block Start -->
+  <div class="hero-block without-thumb bg-light section-ptb">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-aos="fade-right">
+          <div class="hero-text">
+            <h1 class="mb-30">What We Provide</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-xl-6" data-aos="fade-right">
+          <div class="hero-text mb-sm-30">
+            {% placeholder "content_space_2" %}
+          </div>
+        </div>
+        <div class="col-12 col-md-6 offset-xl-1 col-xl-5" data-aos="fade-left">
+          <div class="hero-text">
+            <ul class="list-group">
+              {% placeholder "listing_space" %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Block End -->
+  <!-- Hero Block Start -->
+  <div class="hero-block bg-white section-ptb">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-12 col-md-6 mb-sm-30" data-aos="fade-right">
+          <div class="hero-thumb text-left text-lg-center">
+            {% placeholder "image_space_2" %}
+          </div>
+        </div>
+        <div class="col-12 col-md-6" data-aos="fade-left">
+          <div class="hero-text">
+            {% placeholder "content_space_3" %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Block End -->
+  
+  <!-- Footer Secion Start -->
+  {% endblock %}

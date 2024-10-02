@@ -1,0 +1,285 @@
+{% extends 'base.html' %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+{% block content%}
+  <!-- Header End -->
+  <div class="header-space"></div>
+  <!-- Breadcrumb Area Start -->
+  <nav class="breadcrumb-area bg-dark bg-6">
+    <div class="container">
+      <h1 class="text-white mb-10">About Agency</h1>
+      <ol class="breadcrumb p-0 m-0 bg-dark">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li aria-current="page" class="breadcrumb-item active"><i class="fa fa-minus"></i> About</li>
+      </ol>
+    </div>
+  </nav>
+  <!-- Breadcrumb Area End -->
+  <!-- Hero Block Start -->
+  <div class="hero-block bg-white section-ptb">
+    <div class="container">
+      <div class="row d-flex align-items-center flex-wrap flex-lg-nowrap">
+        <div class="col-12 col-lg-6 mb-sm-30 mb-md-30" data-aos="fade-right">
+          <div class="hero-thumb text-left text-lg-center">
+            <img src="{% static 'assets/img/hero/1.png' %}" alt="Hero Thumbnail">
+          </div>
+        </div>
+        <div class="col-12 col-lg-6" data-aos="fade-left">
+          <div class="hero-text">
+            {% placeholder "content_space_1" %}			
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Block End -->
+  <!-- Hero Block Start -->
+  <div class="hero-block bg-light section-pt">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6" data-aos="fade-right">
+          <div class="hero-text section-pb">
+            {% placeholder "content_space_2" %}			
+            {% placeholder "button_space_1" %}
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 align-self-end" data-aos="fade-left">
+          <div class="hero-thumb text-left text-lg-right">
+            <img src="{% static 'assets/img/hero/3.png' %}" alt="Hero Thumbnail">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Block End -->
+  <!-- Work Process Start -->
+  <div class="work-process bg-white section-ptb">
+      <div class="container">
+        <div class="row text-center" data-aos="zoom-in">
+          <div class="col">
+            <div class="heading mb-75">
+              <h1>How It's <span class="text-primary">Work</span></h1>
+              <p>If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything <br class="d-none d-lg-block"> embarrassing hidden in the middle of text. All the Lorem Ipsum </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="process-boxs d-flex d-row">
+              <div class="circle-box align-self-center">
+                <img src="{% static 'assets/img/process/1.png' %}" alt="Icon Image" data-aos="zoom-in" data-aos-delay="100">
+                <h3 class="mb-0 mt-25 pl-20 text-warning">01. Research</h3>
+              </div>
+              <div class="circle-box align-self-start" data-aos="zoom-in" data-aos-delay="300">
+                <img src="{% static 'assets/img/process/2.png' %}" alt="Icon Image">
+                <h3 class="mb-0 mt-5 text-secondary">02. Data Collection</h3>
+              </div>
+              <div class="circle-box align-self-end" data-aos="zoom-in" data-aos-delay="500">
+                <img src="{% static 'assets/img/process/3.png' %}" alt="Icon Image">
+                <h3 class="mb-0 mt-25 pl-20 text-primary">03. Targeting</h3>
+              </div>
+              <div class="circle-box align-self-start" data-aos="zoom-in" data-aos-delay="700">
+                <img src="{% static 'assets/img/process/4.png' %}" alt="Icon Image">
+                <h3 class="mb-0 mt-25 text-center">04. Result</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- Work Process End -->
+  <!-- Fun Facts Start -->
+  <div class="fun-facts bg-secondary ptb-100">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12 col-sm-6 col-lg-3 mb-sm-40 mb-md-50" data-aos="fade-right" data-aos-delay="200">
+          <div class="single-fact">
+            <img src="{% static 'assets/img/icons/12.png' %}" alt="Fact Icon">
+            <h1 class="text-white mb-0 mt-20"><span class="counter">350</span></h1>
+            <h4 class="text-white mb-0">Happy Clients</h4>
+          </div>
+        </div>
+        <!-- Single Fact End -->
+        <div class="col-12 col-sm-6 col-lg-3 mb-sm-40 mb-md-50" data-aos="fade-right" data-aos-delay="300">
+          <div class="single-fact">
+            <img src="{% static 'assets/img/icons/13.png' %}" alt="Fact Icon">
+            <h1 class="text-white mb-0 mt-20"><span class="counter">180</span></h1>
+            <h4 class="text-white mb-0">Project Complate</h4>
+          </div>
+        </div>
+        <!-- Single Fact End -->
+        <div class="col-12 col-sm-6 col-lg-3 mb-sm-40" data-aos="fade-right" data-aos-delay="400">
+          <div class="single-fact">
+            <img src="{% static 'assets/img/icons/14.png' %}" alt="Fact Icon">
+            <h1 class="text-white mb-0 mt-20"><span class="counter">11</span></h1>
+            <h4 class="text-white mb-0">Years of Services</h4>
+          </div>
+        </div>
+        <!-- Single Fact End -->
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-right" data-aos-delay="500">
+          <div class="single-fact">
+            <img src="{% static 'assets/img/icons/15.png' %}" alt="Fact Icon">
+            <h1 class="text-white mb-0 mt-20"><span class="counter">120</span></h1>
+            <h4 class="text-white mb-0">Awards Winning</h4>
+          </div>
+        </div>
+        <!-- Single Fact End -->
+      </div>
+    </div>
+  </div>
+  <!-- Fun Facts End -->
+  <!-- Hero Block Start -->
+  <div class="hero-block bg-white section-ptb">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-12 col-md-6 mb-sm-30" data-aos="fade-right">
+          <div class="hero-text">
+            <h1 class="mb-25">SEO Audit, Performance <br> And SEO Score Report</h1>
+            <p class="mb-40">If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator.</p>
+            <a href="about.html" class="btn btn-primary">Analyze Website</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6" data-aos="fade-left">
+          <div class="hero-thumb">
+            <img src="{% static 'assets/img/hero/2.png' %}" alt="Hero Thumbnail">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Block End -->
+  <!-- Team Section Start -->
+  <div class="team-area bg-light section-ptb">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col" data-aos="zoom-in">
+          <div class="heading mb-75">
+            <h1>Our best <span class="text-primary">Exparts</span></h1>
+            <p>If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything <br class="d-none d-lg-block"> embarrassing hidden in the middle of text. All the Lorem Ipsum </p>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12 col-sm-6 col-lg-3 mb-sm-50 mb-md-50" data-aos="zoom-in" data-aos-delay="200">
+          <div class="single-member">
+            <div class="thumb mb-25">
+              <img src="{% static 'assets/img/team/1.png' %}" alt="Member Image">
+            </div>
+            <div class="name">
+              <h3 class="mb-2">Marie Black</h3>
+              <h5 class="mb-20">Designer</h5>
+            </div>
+            <div class="social-icon individual-color">
+                <ul class="list-group flex-row">
+                  <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Single Member End -->
+        <div class="col-12 col-sm-6 col-lg-3 mb-sm-50 mb-md-50" data-aos="zoom-in" data-aos-delay="300">
+          <div class="single-member">
+            <div class="thumb mb-25">
+              <img src="{% static 'assets/img/team/2.png' %}" alt="Member Image">
+            </div>
+            <div class="name">
+              <h3 class="mb-2">Amber Keller</h3>
+              <h5 class="mb-20">Develover</h5>
+            </div>
+            <div class="social-icon individual-color">
+                <ul class="list-group flex-row">
+                  <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Single Member End -->
+        <div class="col-12 col-sm-6 col-lg-3 mb-sm-50" data-aos="zoom-in" data-aos-delay="400">
+          <div class="single-member">
+            <div class="thumb mb-25">
+              <img src="{% static 'assets/img/team/3.png' %}" alt="Member Image">
+            </div>
+            <div class="name">
+              <h3 class="mb-2">Linda Rios</h3>
+              <h5 class="mb-20">Designer</h5>
+            </div>
+            <div class="social-icon individual-color">
+                <ul class="list-group flex-row">
+                  <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Single Member End -->
+        <div class="col-12 col-sm-6 col-lg-3" data-aos="zoom-in" data-aos-delay="500">
+          <div class="single-member">
+            <div class="thumb mb-25">
+              <img src="{% static 'assets/img/team/4.png' %}" alt="Member Image">
+            </div>
+            <div class="name">
+              <h3 class="mb-2">Martha Cole</h3>
+              <h5 class="mb-20">Markter</h5>
+            </div>
+            <div class="social-icon individual-color">
+                <ul class="list-group flex-row">
+                  <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Single Member End -->
+      </div>
+    </div>
+  </div>
+  <!-- Team Section End -->
+  <!-- Clients Logo Section Start -->
+  <div class="client-logo section-ptb bg-white">
+    <div class="container text-center">
+      <div class="row justify-content-around" data-aos="fade-up">
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/1.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/2.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/3.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/4.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/5.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+      </div>
+    </div>
+  </div>
+  <!-- Clients Logo Section End -->
+{% endblock %}

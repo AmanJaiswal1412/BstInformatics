@@ -1,0 +1,276 @@
+{% extends 'base.html' %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+{% block content%}
+  <!-- Header End -->
+  <div class="header-space"></div>
+  <!-- Breadcrumb Area Start -->
+  <nav class="breadcrumb-area bg-dark bg-6">
+    <div class="container">
+      <h1 class="text-white mb-10">SEO Trend to look for the best in 2018</h1>
+      <ol class="breadcrumb p-0 m-0 bg-dark">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="blog-one.html"><i class="fa fa-minus"></i> Blog</a></li>
+        <li aria-current="page" class="breadcrumb-item active"><i class="fa fa-minus"></i> SEO Trend to look for the best in 2018</li>
+      </ol>
+    </div>
+  </nav>
+  <!-- Breadcrumb Area End -->
+  <!-- Latest Blog Start -->
+  <div class="blog-details bg-white section-ptb">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 mb-sm-50">
+            <div class="card">
+              <div class="card-header">
+                <a href="blog-details.html"><img src="{% static 'assets/img/blog/lg/1.jpg' %}" alt="Post Thumbnail"></a>
+              </div>
+              <div class="card-body">
+                <div class="d-md-flex ptb-30">
+                  <span class="badge badge-lg badge-primary  align-self-center">16 march 2018</span>
+                  <div class="media ml-auto">
+                    <div class="thumb">
+                      <img src="{% static 'assets/img/client/thumb/1.png' %}" alt="Author Image">
+                    </div>
+                    <div class="post-by align-self-center pl-15">
+                      <h5 class="mb-0"><span class="text-primary">Posted by </span>Raju Ahmad</h5>
+                    </div>
+                  </div>
+                </div>
+                <hr class="line mb-30">
+                <p class="mb-25 text-justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, aLatin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Lwords, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtasource. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Resance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet.</p>
+                <p>There isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 words, combined with a handful of model sentence structures, to gene</p>
+                <blockquote class="quote-card bg-gray mt-50 mb-50">
+                  <h3>There isn't anything embarrassing hidden intmiddle of text. All the Lorem Ipsum generato.</h3>
+                  <h5 class="mb-0">Maria Lynch</h5>
+                </blockquote>
+                <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, aLatinofessor at Hampden-Sydney College in Virginia, looked up one of the more obscurLwords, consectetur, from a Lorem Ipsum passage, and going through</p>
+                <div class="row mt-50 mb-50">
+                  <div class="col-12 col-lg-6 mb-sm-30 mb-md-50">
+                    <div class="thumb">
+                      <img src="{% static 'assets/img/blog/sm/1.jpg' %}" alt="Thumbnail">
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div class="thumb">
+                      <img src="{% static 'assets/img/blog/sm/2.jpg' %}" alt="Thumbnail">
+                    </div>
+                  </div>
+                </div>
+                <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
+                <ul class="list-group mt-30">
+                  <li>01. Nunc non nisi ultrices, sollicitudin elit a, cursus nibh.</li>
+                  <li>02. Sed vestibulum dui ac odio ornare, ac vulputate elit faucibus.</li>
+                  <li>03. Morbi scelerisque sem eu urna bibendum convallis.</li>
+                  <li>04. Mauris suscipit felis non nisi pretium feugiat.</li>
+                </ul>
+                <div class="card-footer d-lg-flex">
+                  <div class="category-link align-self-center">
+                    <h5 class="float-left text-primary mb-0  pr-3">Category: </h5>
+                    <a href="#">Seo,</a>
+                    <a href="#">Agency, </a>
+                    <a href="#">Digitial, </a>
+                    <a href="#">Business</a>
+                  </div>
+                  <div class="ml-auto align-self-center">
+                    <h5 class="float-left text-primary mb-0 ">Share: </h5>
+                    <div class="social-icon">
+                        <ul class="list-group flex-row">
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Post Details End -->
+            <!-- Comment Area Start -->
+            <div class="comments-area">
+              <div class="comment-boxs ptb-80">
+                <div class="media admin-box bg-gray mb-80">
+                  <div class="thumb">
+                    <img src="{% static 'assets/img/blog/author/1.png' %}" alt="Commentor Image">
+                  </div>
+                  <div class="media-body pl-30">
+                    <h4 class="mb-5">Maria Lynch <span class="text-primary">Admin</span></h4>
+                    <p>Lorem Ipsum is not simply random text. It has roots in a pieclassical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <div class="social-icon">
+                        <ul class="list-group flex-row">
+                          <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                          <li><a href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Admin Box Comment End -->
+                <div class="title mb-50">
+                  <h3 class="mb-10">Comments</h3>
+                  <hr class="line">
+                </div>
+                <div class="media mb-40">
+                  <div class="thumb">
+                    <img src="{% static 'assets/img/blog/author/2.png' %}" alt="Commentor Image">
+                  </div>
+                  <div class="media-body pl-30">
+                    <h6 class="mb-0 float-right">July 13, 2018</h6>
+                    <h4 class="mb-5">Terry Mendez</h4>
+                    <p>Lorem Ipsum is not simply random text. It has roots in a pieccal Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <a class="reply item-link" href="#">Reply</a>
+                    <!-- Comment Reply Start -->
+                    <div class="media">
+                      <div class="thumb">
+                        <img src="{% static 'assets/img/blog/author/3.png' %}" alt="Commentor Image">
+                      </div>
+                      <div class="media-body pl-20">
+                        <h6 class="mb-0 float-right">July 14, 2018</h6>
+                        <h4 class="mb-5">Linda Ryan</h4>
+                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model. </p>
+                        <a class="reply item-link" href="#">Reply</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Single Comment End -->
+                <div class="media">
+                  <div class="thumb">
+                    <img src="{% static 'assets/img/blog/author/4.png' %}" alt="Commentor Image">
+                  </div>
+                  <div class="media-body pl-30">
+                    <h6 class="mb-0 float-right">July 10, 2018</h6>
+                    <h4 class="mb-5">Kevin Nichols</h4>
+                    <p>It was popularised in the 1960s with the release of Letra containing Lorem Ipsum passages, and more.</p>
+                    <a class="reply item-link" href="#">Reply</a>
+                  </div>
+                </div>
+                <!-- Single Comment End -->
+              </div>
+              <!-- Comment Boxs End -->
+              <div class="title mb-50">
+                <h3 class="mb-10">Leave a comment</h3>
+                <hr class="line">
+              </div>
+              <div class="comment-form">
+                <form class="form-group" action="#">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <input class="form-control" type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <input class="form-control" type="email" name="email" placeholder="Email">
+                    </div>
+                  </div>
+                  <input class="form-control" name="website" type="text" placeholder="Website">
+                  <textarea class="form-control" name="comment" rows="3" placeholder="Your Comment"></textarea>
+                  <button class="btn btn-primary mt-10" type="submit">Post Comment</button>
+                </form>
+              </div>
+            </div>
+            <!-- Comments Area End -->
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="sidebar">
+              <div class="widget search-box">
+                <div class="widget-title mb-25">
+                  <h4 class="mb-10">Search</h4>
+                  <hr class="line">
+                </div>
+                <form class="input-group" action="search">
+                  <input class="form-control" type="text" placeholder="Search..">
+                  <div class="input-group-append">
+                    <button type="submit" class="input-group-text"><i class="fa fa-search"></i></button>
+                  </div>
+                </form>
+              </div>
+              <!-- Widget End -->
+              <div class="widget about-me">
+                <div class="thumb mb-40">
+                  <img src="{% static 'assets/img/blog/me.jpg' %}" alt="Thumbnail">
+                </div>
+                <div class="widget-title mb-20">
+                  <h4 class="mb-10">About Me</h4>
+                  <hr class="line">
+                </div>
+                <p>If you are going to use a passaLorem Ipsum, you need to be sthere nything embarrassing hidden in the mioftext. All the Lorem Ipsum gener</p>
+              </div>
+              <!-- Widget End -->
+              <div class="widget categories">
+                <div class="widget-title mb-20">
+                  <h4 class="mb-10">Categories</h4>
+                  <hr class="line">
+                </div>
+                <ul class="list-group">
+                  <li><i class="fa fa-angle-right"></i> <a href="#">Business</a></li>
+                  <li><i class="fa fa-angle-right"></i> <a href="#">Consulting</a></li>
+                  <li><i class="fa fa-angle-right"></i> <a href="#">Finance</a></li>
+                  <li><i class="fa fa-angle-right"></i> <a href="#">Funding Trends</a></li>
+                  <li><i class="fa fa-angle-right"></i> <a href="#">Corporate</a></li>
+                </ul>
+              </div>
+              <!-- Widget End -->
+              <div class="widget latest-post">
+                <div class="widget-title mb-30">
+                  <h4 class="mb-10">Latest Posts</h4>
+                  <hr class="line">
+                </div>
+                <ul class="list-group">
+                  <li>
+                    <span class="badge badge-lg badge-primary">08 march 2018</span>
+                    <h4 class="mb-10"><a href="blog-details.html">Hidden in the Next</a></h4>
+                    <p>Make a type specimen book. It hsurvived not only five centuries,</p>
+                    <hr class="line">
+                  </li>
+                  <li>
+                    <span class="badge badge-lg badge-primary">12 march 2018</span>
+                    <h4 class="mb-10"><a href="blog-details.html">Where can I get some?</a></h4>
+                    <p>Lorem Ipsum comes from sections a "de Finibus Bonorum et Malorum.</p>
+                    <hr class="line">
+                  </li>
+                </ul>
+              </div>
+              <!-- Widget End -->
+              <div class="widget instagram">
+                <div class="widget-title mb-30">
+                  <h4 class="mb-10">Instagram</h4>
+                  <hr class="line">
+                </div>
+                <ul class="clearfix">
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/1.jpg' %}" alt="Thumbnail"></a></li>
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/2.jpg' %}" alt="Thumbnail"></a></li>
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/3.jpg' %}" alt="Thumbnail"></a></li>
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/4.jpg' %}" alt="Thumbnail"></a></li>
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/5.jpg' %}" alt="Thumbnail"></a></li>
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/6.jpg' %}" alt="Thumbnail"></a></li>
+                </ul>
+              </div>
+              <!-- Widget End -->
+              <div class="widget tags">
+                <div class="widget-title mb-30">
+                  <h4 class="mb-10">Tags</h4>
+                  <hr class="line">
+                </div>
+                <div class="tag-link clearfix">
+                  <a href="#">Design</a>
+                  <a href="#">Corporate</a>
+                  <a href="#">Gallary</a>
+                  <a href="#">Image</a>
+                  <a href="#">HTML</a>
+                  <a href="#">Business</a>
+                  <a href="#">SEO</a>
+                  <a href="#">New</a>
+                </div>
+              </div>
+              <!-- Widget End -->
+            </div>
+          </div>
+          <!-- Slidebar End -->
+        </div>
+      </div>
+  </div>
+  <!-- Latest Blog End -->
+  <!-- Footer Secion Start -->
+{% endblock %}

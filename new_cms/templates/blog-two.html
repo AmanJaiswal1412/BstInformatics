@@ -1,0 +1,237 @@
+{% extends 'base.html' %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+{% block content%}
+  <!-- Header End -->
+  <div class="header-space"></div>
+  <!-- Breadcrumb Area Start -->
+  <nav class="breadcrumb-area bg-dark bg-6">
+    <div class="container">
+      <h1 class="text-white mb-10">Blog Two</h1>
+      <ol class="breadcrumb p-0 m-0 bg-dark">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li aria-current="page" class="breadcrumb-item active"><i class="fa fa-minus"></i> Blog Two</li>
+      </ol>
+    </div>
+  </nav>
+  <!-- Breadcrumb Area End -->
+  <!-- Latest Blog Start -->
+  <div class="blog-area blog-page style-2 bg-white section-ptb">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 mb-sm-50">
+            <div class="card" data-aos="zoom-in">
+              <div class="card-header">
+                <a href="blog-details.html"><img src="{% static 'assets/img/blog/lg/1.jpg' %}" alt="Post Thumbnail"></a>
+              </div>
+              <div class="card-body">
+                <span class="badge badge-lg badge-primary">16 march 2018</span>
+                <h3 class="mb-15 mt-10"><a href="blog-details.html">SEO trend to look for the best in 2018</a></h3>
+                <p class="mb-25">There are many variations of passages of Lorem Ipsum available, but the majority hsuffered alteration in some form, by injected humour, or randomised words which don't look evslightly believable. If you are going to use a passage of Lorem Ipsum, </p>
+              </div>
+              <div class="card-footer media bg-white">
+                <div class="thumb">
+                  <img src="{% static 'assets/img/client/thumb/1.png' %}" alt="Author Image">
+                </div>
+                <div class="post-by align-self-center pl-15">
+                  <h5 class="mb-0"><span class="text-primary">Posted by </span>Raju Ahmad</h5>
+                </div>
+                <div class="continue-link ml-auto align-self-center">
+                  <a href="blog-details.html">Continue <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Post End -->
+            <div class="card" data-aos="zoom-in">
+              <div class="card-header">
+                <a href="blog-details.html"><img src="{% static 'assets/img/blog/lg/2.jpg' %}" alt="Post Thumbnail"></a>
+              </div>
+              <div class="card-body">
+                <span class="badge badge-lg badge-primary">13 march 2018</span>
+                <h3 class="mb-15 mt-10"><a href="blog-details.html">Many desktop publishing packages and web Page</a></h3>
+                <p class="mb-25">There are many variations of passages of Lorem Ipsum available, but the majority hsuffered alteration in some form, by injected humour, or randomised words which don't look evslightly believable. If you are going to use a passage of Lorem Ipsum, </p>
+              </div>
+              <div class="card-footer media bg-white">
+                <div class="thumb">
+                  <img src="{% static 'assets/img/client/thumb/3.png' %}" alt="Author Image">
+                </div>
+                <div class="post-by align-self-center pl-15">
+                  <h5 class="mb-0"><span class="text-primary">Posted by </span>Raju Ahmad</h5>
+                </div>
+                <div class="continue-link ml-auto align-self-center">
+                  <a href="blog-details.html">Continue <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Post End -->
+            <div class="card" data-aos="zoom-in">
+              <div class="card-header">
+                <a href="blog-details.html"><img src="{% static 'assets/img/blog/lg/3.jpg' %}" alt="Post Thumbnail"></a>
+              </div>
+              <div class="card-body">
+                <span class="badge badge-lg badge-primary">10 march 2018</span>
+                <h3 class="mb-15 mt-10"><a href="blog-details.html">Sometimes by accident, sometimes on purpose</a></h3>
+                <p class="mb-25">There are many variations of passages of Lorem Ipsum available, but the majority hsuffered alteration in some form, by injected humour, or randomised words which don't look evslightly believable. If you are going to use a passage of Lorem Ipsum, </p>
+              </div>
+              <div class="card-footer media bg-white">
+                <div class="thumb">
+                  <img src="{% static 'assets/img/client/thumb/3.png' %}" alt="Author Image">
+                </div>
+                <div class="post-by align-self-center pl-15">
+                  <h5 class="mb-0"><span class="text-primary">Posted by </span>Raju Ahmad</h5>
+                </div>
+                <div class="continue-link ml-auto align-self-center">
+                  <a href="blog-details.html">Continue <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Post End -->
+            <div class="card" data-aos="zoom-in">
+              <div class="card-header">
+                <a href="blog-details.html"><img src="{% static 'assets/img/blog/lg/4.jpg' %}" alt="Post Thumbnail"></a>
+              </div>
+              <div class="card-body">
+                <span class="badge badge-lg badge-primary">08 march 2018</span>
+                <h3 class="mb-15 mt-10"><a href="blog-details.html">All the Lorem Ipsum generators on the Internet</a></h3>
+                <p class="mb-25">There are many variations of passages of Lorem Ipsum available, but the majority hsuffered alteration in some form, by injected humour, or randomised words which don't look evslightly believable. If you are going to use a passage of Lorem Ipsum, </p>
+              </div>
+              <div class="card-footer media bg-white">
+                <div class="thumb">
+                  <img src="{% static 'assets/img/client/thumb/2.png' %}" alt="Author Image">
+                </div>
+                <div class="post-by align-self-center pl-15">
+                  <h5 class="mb-0"><span class="text-primary">Posted by </span>Raju Ahmad</h5>
+                </div>
+                <div class="continue-link ml-auto align-self-center">
+                  <a href="blog-details.html">Continue <i class="fa fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Blog Post End -->
+            <!--Pagination Start -->
+            <div class="custom text-center">
+              <nav>
+                <ul class="pagination justify-content-start">
+                  <li class="page-item disabled">
+                    <span class="page-link"><i class="fa fa-angle-left"></i></span>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#!">01</a>
+                  </li>
+                  <li class="page-item active">
+                    <span class="page-link">02</span>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#!">03</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#!"><i class="fa fa-angle-right"></i></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!--Pagination End -->
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="sidebar">
+              <div class="widget search-box">
+                <div class="widget-title mb-25">
+                  <h4 class="mb-10">Search</h4>
+                  <hr class="line">
+                </div>
+                <form class="input-group" action="search">
+                  <input class="form-control" type="text" placeholder="Search..">
+                  <div class="input-group-append">
+                    <button type="submit" class="input-group-text"><i class="fa fa-search"></i></button>
+                  </div>
+                </form>
+              </div>
+              <!-- Widget End -->
+              <div class="widget about-me">
+                <div class="thumb mb-40">
+                  <img src="{% static 'assets/img/blog/me.jpg' %}" alt="Thumbnail">
+                </div>
+                <div class="widget-title mb-20">
+                  <h4 class="mb-10">About Me</h4>
+                  <hr class="line">
+                </div>
+                <p>If you are going to use a passaLorem Ipsum, you need to be sthere nything embarrassing hidden in the mioftext. All the Lorem Ipsum gener</p>
+              </div>
+              <!-- Widget End -->
+              <div class="widget categories">
+                <div class="widget-title mb-20">
+                  <h4 class="mb-10">Categories</h4>
+                  <hr class="line">
+                </div>
+                <ul class="list-group">
+                  <li><i class="fa fa-angle-right"></i> <a href="#">Business</a></li>
+                  <li><i class="fa fa-angle-right"></i> <a href="#">Consulting</a></li>
+                  <li><i class="fa fa-angle-right"></i> <a href="#">Finance</a></li>
+                  <li><i class="fa fa-angle-right"></i> <a href="#">Funding Trends</a></li>
+                  <li><i class="fa fa-angle-right"></i> <a href="#">Corporate</a></li>
+                </ul>
+              </div>
+              <!-- Widget End -->
+              <div class="widget latest-post">
+                <div class="widget-title mb-30">
+                  <h4 class="mb-10">Latest Posts</h4>
+                  <hr class="line">
+                </div>
+                <ul class="list-group">
+                  <li>
+                    <span class="badge badge-lg badge-primary">08 march 2018</span>
+                    <h4 class="mb-10"><a href="blog-details.html">Hidden in the Next</a></h4>
+                    <p>Make a type specimen book. It hsurvived not only five centuries,</p>
+                    <hr class="line">
+                  </li>
+                  <li>
+                    <span class="badge badge-lg badge-primary">12 march 2018</span>
+                    <h4 class="mb-10"><a href="blog-details.html">Where can I get some?</a></h4>
+                    <p>Lorem Ipsum comes from sections a "de Finibus Bonorum et Malorum.</p>
+                    <hr class="line">
+                  </li>
+                </ul>
+              </div>
+              <!-- Widget End -->
+              <div class="widget instagram">
+                <div class="widget-title mb-30">
+                  <h4 class="mb-10">Instagram</h4>
+                  <hr class="line">
+                </div>
+                <ul class="clearfix">
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/1.jpg' %}" alt="Thumbnail"></a></li>
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/2.jpg' %}" alt="Thumbnail"></a></li>
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/3.jpg' %}" alt="Thumbnail"></a></li>
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/4.jpg' %}" alt="Thumbnail"></a></li>
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/5.jpg' %}" alt="Thumbnail"></a></li>
+                  <li><a class="overlay dark-1" href="#"><img src="{% static 'assets/img/blog/ins/6.jpg' %}" alt="Thumbnail"></a></li>
+                </ul>
+              </div>
+              <!-- Widget End -->
+              <div class="widget tags">
+                <div class="widget-title mb-30">
+                  <h4 class="mb-10">Tags</h4>
+                  <hr class="line">
+                </div>
+                <div class="tag-link clearfix">
+                  <a href="#">Design</a>
+                  <a href="#">Corporate</a>
+                  <a href="#">Gallary</a>
+                  <a href="#">Image</a>
+                  <a href="#">HTML</a>
+                  <a href="#">Business</a>
+                  <a href="#">SEO</a>
+                  <a href="#">New</a>
+                </div>
+              </div>
+              <!-- Widget End -->
+            </div>
+          </div>
+          <!-- Slidebar End -->
+        </div>
+      </div>
+  </div>
+  <!-- Latest Blog End -->
+  
+  <!-- Footer Secion Start -->
+{% endblock %}

@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+{% block content%}
+  <!-- Header End -->
+  <div class="header-space"></div>
+  <!-- Breadcrumb Area Start -->
+  <nav class="breadcrumb-area bg-dark bg-6">
+    <div class="container">
+      <h1 class="text-white mb-10">Contact Us</h1>
+      <ol class="breadcrumb p-0 m-0 bg-dark">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li aria-current="page" class="breadcrumb-item active"><i class="fa fa-minus"></i> Contact Us</li>
+      </ol>
+    </div>
+  </nav>
+  <!-- Breadcrumb Area End -->
+  <!-- Contact Area Start -->
+  <div class="contact-area bg-white section-ptb">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-5 mb-sm-30">
+          <div class="contact-info">
+            <h2 class="mb-5">Get In Touch</h2>
+            <p>If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything embarrassing hidden.</p>
+            <ul class="list-group mt-30">
+              <li>
+                <img src="{% static 'assets/img/icons/phone-sm.png' %}" alt="Icon">
+                <a href="tel:+99-854-785-47-85">+99 854 785 47 85</a>
+              </li>
+              <li>
+                <img src="{% static 'assets/img/icons/map-sm.png' %}" alt="Icon">
+                16 Street Name here, 25 Newlod US
+              </li>
+              <li>
+                <img src="{% static 'assets/img/icons/rocket-sm.png' %}" alt="Icon">
+                <a href="mailto:company@mail.com">Company@mail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="contact-form">
+            <form class="form-group" id="contact_form" action="contact-from.php" method="post">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <input class="form-control" type="text" name="name" id="contact_name" placeholder="Name">
+                </div>
+                <div class="col-12 col-lg-6">
+                  <input class="form-control" type="email" name="email" id="contact_email" placeholder="Email">
+                </div>
+              </div>
+              <input class="form-control" type="text" name="subject" id="contact_subject" placeholder="Subject">
+              <textarea class="form-control" name="message" id="contact_message" rows="3" placeholder="Message"></textarea>
+              <button class="btn btn-primary mt-10" type="submit" id="contact_submit" data-complete-text="Well done!">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact Area End -->
+  <!-- Google Map Start -->
+  <div class="gmap-area">
+	  <div class="google-map height-600" id="googleMap"></div>
+  </div>
+  <!-- Google Map End -->
+  <!-- Clients Logo Section Start -->
+  <div class="client-logo section-ptb bg-white">
+    <div class="container text-center">
+      <div class="row justify-content-around">
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/1.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/2.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/3.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/4.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/5.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+      </div>
+    </div>
+  </div>
+  <!-- Clients Logo Section End -->
+  
+  <!-- Footer Secion Start -->
+  {% endblock %}

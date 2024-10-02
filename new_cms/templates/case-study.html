@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+{% block content%}
+  <!-- Header End -->
+  <div class="header-space"></div>
+  <!-- Breadcrumb Area Start -->
+  <nav class="breadcrumb-area bg-dark bg-6">
+    <div class="container">
+      <h1 class="text-white mb-10">Case Study</h1>
+      <ol class="breadcrumb p-0 m-0 bg-dark">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li aria-current="page" class="breadcrumb-item active"><i class="fa fa-minus"></i> Case Study</li>
+      </ol>
+    </div>
+  </nav>
+  <!-- Breadcrumb Area End -->
+  <!-- Case Study Start -->
+  <div class="case-study outline-style bg-white section-ptb">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+            <div class="single-case bg-white">
+              <div class="case-thumb">
+                <a href="case-study-details.html"><img src="{% static 'assets/img/case/1.jpg' %}" alt="Thumbnail"></a>
+              </div>
+              <div class="case-title ptb-20 pl-20">
+                <span class="badge badge-dark mb-10">Agency</span>
+                <h4 class="mb-0"><a href="case-study-details.html">Digital Marketing</a></h4>
+              </div>
+            </div>
+          </div>
+          <!-- Single Case End -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+            <div class="single-case bg-white">
+              <div class="case-thumb">
+                <a href="case-study-details.html"><img src="{% static 'assets/img/case/2.jpg' %}" alt="Thumbnail"></a>
+              </div>
+              <div class="case-title ptb-20 pl-20">
+                <span class="badge badge-dark mb-10">Consulting</span>
+                <h4 class="mb-0"><a href="case-study-details.html">Consulting Persone</a></h4>
+              </div>
+            </div>
+          </div>
+          <!-- Single Case End -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+            <div class="single-case bg-white">
+              <div class="case-thumb">
+                <a href="case-study-details.html"><img src="{% static 'assets/img/case/3.jpg' %}" alt="Thumbnail"></a>
+              </div>
+              <div class="case-title ptb-20 pl-20">
+                <span class="badge badge-dark mb-10">Network</span>
+                <h4 class="mb-0"><a href="case-study-details.html">Social Networks</a></h4>
+              </div>
+            </div>
+          </div>
+          <!-- Single Case End -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="500">
+            <div class="single-case bg-white">
+              <div class="case-thumb">
+                <a href="case-study-details.html"><img src="{% static 'assets/img/case/4.jpg' %}" alt="Thumbnail"></a>
+              </div>
+              <div class="case-title ptb-20 pl-20">
+                <span class="badge badge-dark mb-10">Design</span>
+                <h4 class="mb-0"><a href="case-study-details.html">Hezul Portfolio PSD</a></h4>
+              </div>
+            </div>
+          </div>
+          <!-- Single Case End -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+            <div class="single-case bg-white">
+              <div class="case-thumb">
+                <a href="case-study-details.html"><img src="{% static 'assets/img/case/5.jpg' %}" alt="Thumbnail"></a>
+              </div>
+              <div class="case-title ptb-20 pl-20">
+                <span class="badge badge-dark mb-10">Develop</span>
+                <h4 class="mb-0"><a href="case-study-details.html">Web Programming</a></h4>
+              </div>
+            </div>
+          </div>
+          <!-- Single Case End -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+            <div class="single-case bg-white">
+              <div class="case-thumb">
+                <a href="case-study-details.html"><img src="{% static 'assets/img/case/6.jpg' %}" alt="Thumbnail"></a>
+              </div>
+              <div class="case-title ptb-20 pl-20">
+                <span class="badge badge-dark mb-10">Powerpoint</span>
+                <h4 class="mb-0"><a href="case-study-details.html">Web presentation</a></h4>
+              </div>
+            </div>
+          </div>
+          <!-- Single Case End -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+            <div class="single-case bg-white">
+              <div class="case-thumb">
+                <a href="case-study-details.html"><img src="{% static 'assets/img/case/7.jpg' %}" alt="Thumbnail"></a>
+              </div>
+              <div class="case-title ptb-20 pl-20">
+                <span class="badge badge-dark mb-10">Web App</span>
+                <h4 class="mb-0"><a href="case-study-details.html">App Development</a></h4>
+              </div>
+            </div>
+          </div>
+          <!-- Single Case End -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="500">
+            <div class="single-case bg-white">
+              <div class="case-thumb">
+                <a href="case-study-details.html"><img src="{% static 'assets/img/case/8.jpg' %}" alt="Thumbnail"></a>
+              </div>
+              <div class="case-title ptb-20 pl-20">
+                <span class="badge badge-dark mb-10">Deshboard</span>
+                <h4 class="mb-0"><a href="case-study-details.html">Deshboard Control</a></h4>
+              </div>
+            </div>
+          </div>
+          <!-- Single Case End -->
+        </div>
+        <!--Pagination Start -->
+        <div class="mt-30 custom text-center">
+          <nav>
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <span class="page-link"><i class="fa fa-angle-left"></i></span>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#!">01</a>
+              </li>
+              <li class="page-item active">
+                <span class="page-link">02</span>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#!">03</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#!"><i class="fa fa-angle-right"></i></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!--Pagination End -->
+      </div>
+  </div>
+  <!-- Case Study End -->
+  
+  <!-- Footer Secion Start -->
+ {% endblock %}

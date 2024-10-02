@@ -1,0 +1,206 @@
+{% extends 'base.html' %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+{% block content%}
+  <!-- Header End -->
+  <div class="header-space"></div>
+  <!-- Breadcrumb Area Start -->
+  <nav class="breadcrumb-area bg-dark bg-6">
+    <div class="container">
+      <h1 class="text-white mb-10">Best Services</h1>
+      <ol class="breadcrumb p-0 m-0 bg-dark">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li aria-current="page" class="breadcrumb-item active"><i class="fa fa-minus"></i> Services</li>
+      </ol>
+    </div>
+  </nav>
+  <!-- Breadcrumb Area End -->
+  <!-- Icon Blocks Start -->
+  <div class="icon-blocks bg-white section-ptb">
+      <div class="container">
+        <div class="row text-center pb-70">
+          <div class="col-12 col-md-4 mb-sm-40" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                {% placeholder "service_image_1" %}
+              </div>
+              {% placeholder "service_heading_1" %}
+              {% placeholder "service_content_1" %}
+              {% placeholder "service_button_1" %}
+              <!-- <a class="item-link" href="service-details.html">Read More <i class="fa fa-angle-right"></i></a> -->
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-sm-40" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                {% placeholder "service_image_2" %}
+              </div>
+              {% placeholder "service_heading_2" %}
+              {% placeholder "service_content_2" %}
+              {% placeholder "service_button_2" %}
+            </div>
+          </div>
+          <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                {% placeholder "service_image_3" %}
+              </div>
+             {% placeholder "service_heading_3" %}
+              {% placeholder "service_content_3" %}
+              {% placeholder "service_button_3" %}
+            </div>
+          </div>
+        </div>
+        <!-- First Row End -->
+        <div class="row text-center">
+          <div class="col-12 col-md-4 mb-sm-40" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                {% placeholder "service_image_4" %}
+              </div>
+              {% placeholder "service_heading_4" %}
+              {% placeholder "service_content_4" %}
+              {% placeholder "service_button_4" %}
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-sm-40" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                {% placeholder "service_image_5" %}
+              </div>
+              {% placeholder "service_heading_5" %}
+              {% placeholder "service_content_5" %}
+              {% placeholder "service_button_5" %}
+            </div>
+          </div>
+          <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-block">
+              <div class="icon mb-20">
+                {% placeholder "service_image_6" %}
+              </div>
+              {% placeholder "service_heading_6" %}
+              {% placeholder "service_content_6" %}
+              {% placeholder "service_button_6" %}
+            </div>
+          </div>
+        </div>
+        <!-- Second Row End -->
+      </div>
+  </div>
+  <!-- Icon Blocks End -->
+  <!-- Pricing Plan Start -->
+  <div class="pricing-plan style-1 section-ptb bg-light">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col" data-aos="zoom-in">
+          <div class="heading mb-75">
+            <h1>Pricing <span class="text-primary">Plan</span></h1>
+            <p>If you are going to use a passage of Lorem Ipsum, you need to be suthere isn't anything <br class="d-none d-lg-block"> embarrassing hidden in the middle of text. All the Lorem Ipsum </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4" data-aos="fade-left" data-aos-delay="500">
+          <div class="single-plan mx-auto text-center bg-white pt-40 pb-60">
+            <div class="icon mb-15">
+              <img alt="Icon" src="{% static 'assets/img/icons/10.png' %}">
+            </div>
+            <h2>Personal</h2>
+            <div class="price">
+              <h1><sup>$</sup>22<sub>/Mo</sub></h1>
+            </div>
+            <ul class="list-group mb-30 pt-5">
+              <li>Five User</li>
+              <li>Full Customizable</li>
+              <li>Biuld & Publish</li>
+              <li>Free Backup</li>
+            </ul>
+            <button class="btn btn-primary">order now</button>
+          </div>
+        </div>
+        <!-- Single Plan End -->
+        <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="single-plan popular-plan text-center bg-primary bg-3 pt-70 pb-75">
+            <div class="stiker bg-white">
+              <h5 class="mb-0">Popular Plan</h5>
+            </div>
+            <div class="icon mb-15">
+              <img alt="Icon" src="{% static 'assets/img/icons/1.png' %}">
+            </div>
+            <h2 class="text-white">Webmaster</h2>
+            <div class="price">
+              <h1 class="text-white"><sup>$</sup>30<sub>/Mo</sub></h1>
+            </div>
+            <ul class="list-group mb-40 pt-5">
+              <li>Five User</li>
+              <li>Full Customizable</li>
+              <li>Biuld & Publish</li>
+              <li>Free Backup</li>
+            </ul>
+            <button class="btn btn-primary btn-light">order now</button>
+          </div>
+        </div>
+        <!-- Single Plan End -->
+        <div class="col-12 col-md-4" data-aos="fade-right" data-aos-delay="500">
+          <div class="single-plan mx-auto text-center bg-white pt-40 pb-60">
+            <div class="icon mb-15">
+              <img alt="Icon" src="{% static 'assets/img/icons/11.png' %}">
+            </div>
+            <h2>Professional</h2>
+            <div class="price">
+              <h1><sup>$</sup>40<sub>/Mo</sub></h1>
+            </div>
+            <ul class="list-group mb-30 pt-5">
+              <li>Five User</li>
+              <li>Full Customizable</li>
+              <li>Biuld & Publish</li>
+              <li>Free Backup</li>
+            </ul>
+            <button class="btn btn-primary">order now</button>
+          </div>
+        </div>
+        <!-- Single Plan End -->
+      </div>
+    </div>
+  </div>
+  <!-- Pricing Plan End -->
+  <!-- Clients Logo Section Start -->
+  <div class="client-logo section-ptb bg-white">
+    <div class="container text-center" data-aos="fade-up">
+      <div class="row justify-content-around">
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/1.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/2.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/3.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/4.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+        <div class="col-2">
+          <div class="brand-logo">
+            <a href="#"><img src="{% static 'assets/img/client/logo/5.png' %}" alt="Client Logo"></a>
+          </div>
+        </div>
+        <!-- Single logo -->
+      </div>
+    </div>
+  </div>
+  <!-- Clients Logo Section End -->
+  <!-- Footer Secion Start -->
+ {% endblock %}

@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% load cms_tags menu_tags sekizai_tags %}
+{% load static %}
+{% block content%}
+  <!-- Header End -->
+  <div class="header-space"></div>
+  <!-- Breadcrumb Area Start -->
+  <nav class="breadcrumb-area bg-dark bg-6">
+    <div class="container">
+      <h1 class="text-white mb-10">Digital Marketing</h1>
+      <ol class="breadcrumb p-0 m-0 bg-dark">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="case-study.html"><i class="fa fa-minus"></i> Case Study</a></li>
+        <li aria-current="page" class="breadcrumb-item active"><i class="fa fa-minus"></i> Digital Marketing</li>
+      </ol>
+    </div>
+  </nav>
+  <!-- Breadcrumb Area End -->
+  <!-- Hero Block Start -->
+  <div class="hero-block style-1 bg-white section-ptb">
+    <div class="container">
+      <div class="row d-flex align-items-center flex-wrap">
+        <div class="col-12 col-lg-6 mb-sm-30 mb-md-30" data-aos="fade-right">
+          <div class="hero-thumb">
+            <img src="{% static 'assets/img/hero/5.jpg" alt="Hero Thumbnail">
+          </div>
+        </div>
+        <div class="col-12 col-lg-6" data-aos="fade-left">
+          <div class="hero-text">
+            <h1 class="mb-15">Project Brief</h1>
+            <p class="mb-55">If you are going to use a passage of Lorem Ipsum, you nsuthere isn't anything embarrassing hidden in the middle of t tLorIpsum generators on the Internet tend to repeat predefined chunks as nesary, making this the first true generator.</p>
+            <div class="case-info">
+              <h2 class="mb-10">Info</h2>
+              <ul class="list-group">
+                <li><span>Category:</span> Graphic Design</li>
+                <li><span>Date:</span> 20 March 2018</li>
+                <li><span>Client:</span> Raju Ahmad</li>
+                <li><span class="float-left">Share:</span>
+                  <div class="social-icon">
+                      <ul class="list-group flex-row">
+                        <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                      </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Block End -->
+  <!-- Hero Block Start -->
+  <div class="hero-block bg-light section-pt">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6" data-aos="fade-right">
+          <div class="hero-text section-pb">
+            <h1 class="mb-25">Find Solution & Solve it</h1>
+            <p class="mb-20">If you are going to use a passage of Lorem Ipsum, you need to suthere isn't anything embarrassing hidden in the middle of text. All LorIpsum generators on the Internet tend to repeat predefined chunks as nesary, making this the first true generator.</p>
+            <ul class="list-group">
+              <li>01. Curabitur eleifend lacus at justo molestie blandit.</li>
+              <li>02. Ut placerat felis quis nulla consectetur euismod.</li>
+              <li>03. Proin eu sapien nec ante tincidunt condimentum eget tincidun</li>
+              <li>04. Integer ultrices eros et pretium mollis.</li>
+              <li>05. Maecenas dignissim augue in pharetra porttitor.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 align-self-end" data-aos="fade-left">
+          <div class="hero-thumb text-left text-lg-right">
+            <img src="{% static 'assets/img/hero/3.png' %}" alt="Hero Thumbnail">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Block End -->
+  <!-- Hero Block Start -->
+  <div class="hero-block style-2 bg-white section-ptb">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-12 col-md-6 col-lg-5" data-aos="fade-right">
+          <div class="hero-thumb mb-sm-30 mb-md-30">
+            <img src="{% static 'assets/img/hero/4.png' %}" alt="Hero Thumbnail">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-7" data-aos="fade-left">
+          <div class="hero-text">
+            <h1 class="mb-25">Projects Analysis</h1>
+            <p class="mb-0">If you are going to use a passage of Lorem Ipsum, you need to suthere isn't anything embarrassing hidden in the middle of text. All tLorIpsum generators on the Internet tend to repeat predefined chunks as nesary, making this the first true generator.</p>
+            <ul class="list-group text-primary mt-10">
+              <li>01. 0.10% CTR</li>
+              <li>02. 150% ROI</li>
+              <li>03. 10% less CPA</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero Block End -->
+  
+  <!-- Footer Secion Start -->
+{% endblock %}
